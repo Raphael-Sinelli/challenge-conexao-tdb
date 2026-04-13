@@ -23,7 +23,7 @@ Nesta fase (Sprint 3), a solução foi totalmente migrada de HTML/CSS puro para 
 * **React 19 + Vite:** Construção da SPA com alta performance de build e renderização.
 * **TypeScript:** Garantindo tipagem estática, uso de interfaces (Props) e segurança no código.
 * **Tailwind CSS:** Estilização utilitária para um layout premium, 100% responsivo (Mobile, Tablet e Desktop).
-* **React Router DOM:** Gerenciamento de rotas estáticas e dinâmicas (como a página de detalhes dos integrantes via `useParams`).
+* **React Router DOM:** Gerenciamento de rotas estáticas e dinâmicas (como a página de detalhes dos integrantes via useParams).
 * **React Hook Form:** Captura, gerenciamento de estados dinâmicos e validação eficiente de dados no formulário de contato.
 
 ---
