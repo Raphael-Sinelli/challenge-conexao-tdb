@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 export const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false);
   const fecharMenu = () => setMenuAberto(false);
@@ -24,6 +25,7 @@ export const Header = () => {
           <Link to="/sobre" className="text-lg font-semibold text-slate-400 hover:text-white transition-all hover:-translate-y-0.5">Sobre</Link>
           <Link to="/integrantes" className="text-lg font-semibold text-slate-400 hover:text-white transition-all hover:-translate-y-0.5">Equipe</Link>
           <Link to="/faq" className="text-lg font-semibold text-slate-400 hover:text-white transition-all hover:-translate-y-0.5">FAQ</Link>
+          <Link to="/dashboard" className="text-lg font-semibold text-slate-400 hover:text-white">Área do Dentista</Link>
           
           <Link 
             to="/contato" 

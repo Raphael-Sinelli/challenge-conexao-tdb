@@ -6,6 +6,7 @@ import FAQ from './pages/FAQ';
 import Contato from './pages/Contato';
 import Solucao from './pages/Solucao';
 import Sobre from './pages/Sobre';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="integrantes" element={<Integrantes />} />
           <Route path="faq" element={<FAQ />} />
+          <Route path="dashboard" element={<Dashboard />} /> 
           <Route path="contato" element={<Contato />} />
           <Route path="solucao" element={<Solucao />} />
           <Route path="sobre" element={<Sobre />} />

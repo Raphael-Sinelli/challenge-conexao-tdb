@@ -9,10 +9,28 @@ interface ContatoForm {
 export default function Contato() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<ContatoForm>();
 
-  const onSubmit = (data: ContatoForm) => {
-    console.log(data);
-    alert("Mensagem enviada com sucesso para a equipe TechSmile!");
-    reset();
+  const onSubmit = async (data: ContatoForm) => {
+    try {
+      const resposta = await fetch('http://localhost:8080/api/contatos', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!resposta.ok) {
+        throw new Error('Falha ao enviar a mensagem para o servidor Java.');
+      }
+
+      console.log("Dados enviados para a API:", data);
+      alert("Mensagem enviada com sucesso para a ONG Turma do Bem!");
+      reset();
+
+    } catch (erro) {
+      console.error(erro);
+      alert("Erro de conexão com o servidor. Por favor, tente novamente mais tarde.");
+    }
   };
 
   return (
