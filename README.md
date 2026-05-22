@@ -89,6 +89,30 @@ URL Base da API Back-End (Render): https://crm-social-sprint4-java.onrender.com
 
 ---
 
+## 🔗 Integração com Back-End Java
+
+O front-end da aplicação foi integrado ao Back-End Java publicado no Render, utilizando requisições HTTP com a Fetch API.
+
+Na tela **Área do Dentista / Dashboard de Triagem**, o sistema consome o endpoint de beneficiários para exibir os dados cadastrados no banco, como nome, cidade, UF, e-mail e status.
+
+Endpoint principal utilizado no dashboard:
+
+GET https://crm-social-sprint4-java.onrender.com/beneficiarios
+
+Além da listagem, a tela também possui ações integradas com a API:
+
+PUT https://crm-social-sprint4-java.onrender.com/beneficiarios/{id}
+
+Utilizado para atualizar o status do beneficiário para `EM_ATENDIMENTO`.
+
+DELETE https://crm-social-sprint4-java.onrender.com/beneficiarios/{id}
+
+Utilizado para remover um beneficiário da fila de triagem.
+
+Essa integração comprova a comunicação entre o front-end em React + TypeScript e o back-end em Java + Quarkus publicado no Render.
+
+---
+
 📬 Contato
 Caso necessite de suporte técnico, esclarecimentos sobre a arquitetura modular da SPA ou sobre os contratos de integração com os DTOs da API Java, entre em contato com os representantes da equipe:
 
