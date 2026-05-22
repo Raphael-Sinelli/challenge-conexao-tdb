@@ -79,13 +79,15 @@ Equipe de desenvolvimento e engenharia responsável pelo projeto (Análise e Des
 🔗 Links Importantes da Entrega
 Para fins de avaliação da banca examinadora, seguem os links oficiais da solução publicada e recursos de apresentação:
 
-URL do Deploy Front-End (Vercel): [INSERIR_LINK_DA_VERCEL_AQUI]
+URL do Deploy Front-End (Vercel): https://challenge-conexao-tdb.vercel.app
 
-Vídeo de Apresentação Técnica (YouTube): [INSERIR_LINK_DO_YOUTUBE_AQUI]
+Vídeo de Apresentação Técnica (YouTube): A definir
 
 Repositório do Projeto (GitHub): https://github.com/ArthurLinsBelarmino/techsmile-sprint4
 
 URL Base da API Back-End (Render): https://crm-social-sprint4-java.onrender.com
+
+Endpoint consumido no Dashboard de Triagem: https://crm-social-sprint4-java.onrender.com/beneficiarios
 
 ---
 
