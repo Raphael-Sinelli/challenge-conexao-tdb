@@ -79,13 +79,39 @@ Equipe de desenvolvimento e engenharia responsável pelo projeto (Análise e Des
 🔗 Links Importantes da Entrega
 Para fins de avaliação da banca examinadora, seguem os links oficiais da solução publicada e recursos de apresentação:
 
-URL do Deploy Front-End (Vercel): [INSERIR_LINK_DA_VERCEL_AQUI]
+URL do Deploy Front-End (Vercel): https://challenge-conexao-tdb.vercel.app
 
-Vídeo de Apresentação Técnica (YouTube): [INSERIR_LINK_DO_YOUTUBE_AQUI]
+Vídeo de Apresentação Técnica (YouTube): A definir
 
 Repositório do Projeto (GitHub): https://github.com/ArthurLinsBelarmino/techsmile-sprint4
 
 URL Base da API Back-End (Render): https://crm-social-sprint4-java.onrender.com
+
+Endpoint consumido no Dashboard de Triagem: https://crm-social-sprint4-java.onrender.com/beneficiarios
+
+---
+
+## 🔗 Integração com Back-End Java
+
+O front-end da aplicação foi integrado ao Back-End Java publicado no Render, utilizando requisições HTTP com a Fetch API.
+
+Na tela **Área do Dentista / Dashboard de Triagem**, o sistema consome o endpoint de beneficiários para exibir os dados cadastrados no banco, como nome, cidade, UF, e-mail e status.
+
+Endpoint principal utilizado no dashboard:
+
+GET https://crm-social-sprint4-java.onrender.com/beneficiarios
+
+Além da listagem, a tela também possui ações integradas com a API:
+
+PUT https://crm-social-sprint4-java.onrender.com/beneficiarios/{id}
+
+Utilizado para atualizar o status do beneficiário para `EM_ATENDIMENTO`.
+
+DELETE https://crm-social-sprint4-java.onrender.com/beneficiarios/{id}
+
+Utilizado para remover um beneficiário da fila de triagem.
+
+Essa integração comprova a comunicação entre o front-end em React + TypeScript e o back-end em Java + Quarkus publicado no Render.
 
 ---
 

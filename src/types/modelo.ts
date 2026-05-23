@@ -10,6 +10,7 @@ export interface Paciente {
   cidade: string;
   uf: string;
   status: string;
+  dataCadastro?: string;
 }
 
 export interface UsuarioPadrao {
