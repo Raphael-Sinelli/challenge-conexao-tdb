@@ -70,9 +70,9 @@ src
 
 Equipe de desenvolvimento e engenharia responsável pelo projeto (Análise e Desenvolvimento de Sistemas - FIAP):
 
-- **Arthur Lins Belarmino** | RM: 566845 | Turma: 2TDSPY | [LinkedIn](https://www.linkedin.com/in/arthur-lins-belarmino-3b1369328/) | [GitHub](https://github.com/ArthurLinsBelarmino)
+- **Arthur Lins Belarmino** | RM: 566845 | Turma: 1TDSPS | [LinkedIn](https://www.linkedin.com/in/arthur-lins-belarmino-3b1369328/) | [GitHub](https://github.com/ArthurLinsBelarmino)
 - **Henrique Spoltore M. P. dos Santos** | RM: 568130 | Turma: 2TDSPY | [LinkedIn](https://www.linkedin.com/in/henrique-pav%C3%A3o-849407251/) | [GitHub](https://github.com/henrique477)
-- **Raphael Oliveira S. M. de Mendonça** | RM: 568346 | Turma: 2TDSPY | [LinkedIn](https://www.linkedin.com/in/raphael-sinelli-675310321) | [GitHub](https://github.com/Raphael-Sinelli)
+- **Raphael Oliveira S. M. de Mendonça** | RM: 568346 | Turma: 1TDSPS | [LinkedIn](https://www.linkedin.com/in/raphael-sinelli-675310321) | [GitHub](https://github.com/Raphael-Sinelli)
 
 ---
 
