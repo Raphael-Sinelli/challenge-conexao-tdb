@@ -53,7 +53,7 @@ conexao-tdb/
 
 👥 Autores e Créditos
 Equipe TechSmile Solutions — Análise e Desenvolvimento de Sistemas | FIAP
-FotoNomeRMTurmaLinks<img src="./src/assets/Arthur.jpeg" width="60" height="60" style="border-radius:50%"/>Arthur Lins Belarmino5668451TDSPSMostrar Imagem Mostrar Imagem<img src="./src/assets/henrique.jpeg" width="60" height="60" style="border-radius:50%"/>Henrique Spoltore M. P. dos Santos5681301TDSPSMostrar Imagem Mostrar Imagem<img src="./src/assets/Raphael.jpeg" width="60" height="60" style="border-radius:50%"/>Raphael Oliveira S. M. de Mendonça5683461TDSPSMostrar Imagem Mostrar Imagem
+FotoNomeRMTurmaLinks<img src="./src/assets/Arthur.jpeg" width="60" height="60" style="border-radius:50%"/>Arthur Lins Belarmino5668451TDSPS <img src="./src/assets/henrique.jpeg" width="60" height="60" style="border-radius:50%"/>Henrique Spoltore M. P. dos Santos5681301TDSPS<img src="./src/assets/Raphael.jpeg" width="60" height="60" style="border-radius:50%"/>Raphael Oliveira S. M. de Mendonça5683461TDSPS
 
 ⚙️ Como Usar
 Pré-requisitos
